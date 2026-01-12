@@ -68,6 +68,24 @@ class TestEmployeeScraper(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_data(df)
 
+    # Test Case 6: Invalid Phone Number (Negative Scenario)
+    def test_invalid_phone_number(self):
+        data = {
+            "Employee ID": [1],
+            "First Name": ["John"],
+            "Last Name": ["Doe"],
+            "Email": ["john@example.com"],
+            "Job Title": ["Engineer"],
+            "Phone Number": ["abc123"],  # invalid phone
+            "Hire Date": ["2022-01-01"]
+        }
+
+        df = pd.DataFrame(data)
+
+        # This assumes validator checks phone format and raises error
+        with self.assertRaises(ValueError):
+            validate_data(df)
+
 
 if __name__ == "__main__":
     unittest.main()
