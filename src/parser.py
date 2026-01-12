@@ -1,3 +1,4 @@
+# Detects file type (CSV or Excel) and reads it into a pandas DataFrame.
 import pandas as pd
 import logging
 

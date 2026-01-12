@@ -1,3 +1,4 @@
+#Downloads a file from the given URL to the specified output path.
 import requests
 import time
 import logging

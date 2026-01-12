@@ -19,7 +19,7 @@ COLUMN_MAPPING = {
     "Phone": "Phone Number",
     "Date of birth": "Hire Date"
 }
-PHONE_PATTERN = re.compile(r"^[\d\+\-\(\)\s\.]+(x\d+)?$")# 7-15 digits, optional +
+PHONE_PATTERN = re.compile(r"^[\d\+\-\(\)\s\.]+(x\d+)?$")# 7-15 digits, optional 
 DATE_FORMAT = "%Y-%m-%d"  # Expected format for hire date
 
 def validate_data(df):

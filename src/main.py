@@ -1,3 +1,4 @@
+# Main function to run the scraper
 from downloader import download_file
 from parser import parse_file
 from validator import validate_data, REQUIRED_COLUMNS
