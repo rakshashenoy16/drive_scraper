@@ -2,7 +2,7 @@
 
 A Python-based scraper to download employee data from a Google Drive file, validate it, and generate a cleaned dataset ready for further processing or ingestion into a data warehouse.
 
----
+
 
 ## Features
 
@@ -13,7 +13,5 @@ A Python-based scraper to download employee data from a Google Drive file, valid
 - Handles missing or invalid data gracefully.
 - Unit tests implemented using `unittest` with mocks to avoid actual network calls.
 
----
 
-##  Project Structure
 

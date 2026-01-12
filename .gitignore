@@ -17,5 +17,10 @@ Thumbs.db
 employee_data.csv
 cleaned_employee_data.csv
 test.csv
+*.csv
+output/
+logs/
 
+
+__pycache__/
 
